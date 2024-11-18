@@ -109,10 +109,3 @@ Each level introduces new enemies, environments and objectives. Progress is save
 - **Python** for logic and implementation.
 
 ---
-
-## 💡 Notes
-
-- The game is still under development and new features may be added in future updates.
-- Ensure all assets are placed in their correct directories as specified in `main.py`.
-
----
