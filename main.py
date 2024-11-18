@@ -742,7 +742,7 @@ class Scorpion(pygame.sprite.Sprite):
     def __init__(self, x, y):
         pygame.sprite.Sprite.__init__(self)
 
-        self.image = pygame.image.load("assets/1-assets_next/scorpion/scorpion_1.png")
+        self.image = pygame.image.load("assets/entities/scorpion/scorpion_1.png")
         self.image = pygame.transform.scale(self.image, (45, 45))  # Rescale
 
         self.rect = self.image.get_rect()
@@ -768,7 +768,7 @@ class Slime(pygame.sprite.Sprite):
     side = 1
 
     for ID in range(1, 5):  # Importation des images
-        image = pygame.image.load("assets/1-assets_next/Slime/Walk/Slime_Walk_{}.png".format(ID))
+        image = pygame.image.load("assets/entities/Slime/Walk/Slime_Walk_{}.png".format(ID))
         L[-1].append(image)
         L[1].append(pygame.transform.flip(image, True, False))
 
@@ -808,7 +808,7 @@ class Bat(pygame.sprite.Sprite):
     side = 1
 
     for ID in range(1, 5):  # Importation des images
-        image = pygame.image.load("assets/1-assets_next/Bat/Walk/Bat_Walk_{}.png".format(ID))
+        image = pygame.image.load("assets/entities/Bat/Walk/Bat_Walk_{}.png".format(ID))
         L[-1].append(image)
         L[1].append(pygame.transform.flip(image, True, False))
 
@@ -863,8 +863,8 @@ class Bat(pygame.sprite.Sprite):
 class Wagon(pygame.sprite.Sprite):
     def __init__(self, x, y):
         pygame.sprite.Sprite.__init__(self)
-        L = [pygame.image.load("assets/1-assets_next/wagon_2/1.png"),
-             pygame.image.load("assets/1-assets_next/wagon_2/2.png")]
+        L = [pygame.image.load("assets/entities/wagon_2/1.png"),
+             pygame.image.load("assets/entities/wagon_2/2.png")]
         rand = random.randint(0, 1)  # Choix aléatoire de l'image
         self.image = L[rand]
         self.image = pygame.transform.scale(self.image, (45, 45))  # Rescale
@@ -896,17 +896,17 @@ class Boss(pygame.sprite.Sprite):
 
     for i in range(1, 3):
         for ID in range(1, 3):  # Importation des images
-            image = pygame.image.load("assets/1-assets_next/Centipede/Hurt/Centipede_Hurt_{}.png".format(ID))
+            image = pygame.image.load("assets/entities/Centipede/Hurt/Centipede_Hurt_{}.png".format(ID))
             image = pygame.transform.scale(image, (144, 120))  # Rescale
             L[-2].append(image)
 
     for ID in range(1, 10):  # Importation des images
-        image = pygame.image.load("assets/1-assets_next/Centipede/Death/Centipede_Death_{}.png".format(ID))
+        image = pygame.image.load("assets/entities/Centipede/Death/Centipede_Death_{}.png".format(ID))
         image = pygame.transform.scale(image, (144, 120))  # Rescale
         L[-3].append(image)
 
     for ID in range(1, 7):  # Importation des images
-        image = pygame.image.load("assets/1-assets_next/Centipede/Sneer/Centipede_Sneer_{}.png".format(ID))
+        image = pygame.image.load("assets/entities/Centipede/Sneer/Centipede_Sneer_{}.png".format(ID))
         image = pygame.transform.scale(image, (144, 120))  # Rescale
         L[-1].append(image)
 
@@ -999,7 +999,7 @@ class TheKey(pygame.sprite.Sprite):
     k = 0
     L = []
     for ID in range(1, 5):  # Importation des images
-        image = pygame.image.load("assets/1-assets_next/Key/Key_{}.png".format(ID))
+        image = pygame.image.load("assets/entities/Key/Key_{}.png".format(ID))
         L.append(image)
 
     def __init__(self, x, y):
@@ -1038,7 +1038,7 @@ class Crystal(pygame.sprite.Sprite):
     k = 0
     L = []
     for ID in range(1, 5):  # Importation des images
-        image = pygame.image.load("assets/1-assets_next/Crystal/Crystal_{}.png".format(ID))
+        image = pygame.image.load("assets/entities/Crystal/Crystal_{}.png".format(ID))
         image = pygame.transform.scale(image, (30, 30))
         L.append(image)
 
@@ -1079,7 +1079,7 @@ class Coffre(pygame.sprite.Sprite):
     k = 0
     L = []
     for ID in range(5, 18):  # Importation des images
-        image = pygame.image.load("assets/1-assets_next/coffre_2/Chest_{}.png".format(ID))
+        image = pygame.image.load("assets/entities/coffre_2/Chest_{}.png".format(ID))
         image = pygame.transform.scale(image, (45, 45))
         L.append(image)
 
