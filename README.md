@@ -107,6 +107,7 @@ Each level introduces new enemies, environments and objectives. Progress is save
 <img src="screenshots/menu.png" alt="Menu Screenshot" width="100%">
 
 ### Gameplay
-<img src="screenshots/gameplay.png" alt="Gameplay Screenshot" width="100%">
+[![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch-red?logo=youtube&style=flat-square)](https://www.youtube.com/watch?v=CVsCpO-YR-A&ab_channel=Rafixol)
+
 
 ---
