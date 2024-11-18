@@ -1,34 +1,37 @@
+# Dépendances
 import random
 import time
 
 import pygame.sprite
 
-from settings import *  # Importation des paramètres
+# Importation des paramètres
+from settings import *
 
+# Importation des niveaux et leurs données
 # Niveaux intro 0
-from niveau_0_0_data import *  # Importation des données du niveau
-from niveau_0_1_data import *
-from niveau_0_2_data import *
-from niveau_0_3_data import *
+from Niveaux.niveau_0_0_data import *
+from Niveaux.niveau_0_1_data import *
+from Niveaux.niveau_0_2_data import *
+from Niveaux.niveau_0_3_data import *
 
 # Niveau 1
-from niveau_1_0_data import *
+from Niveaux.niveau_1_0_data import *
 
-# Niveau 2
-from niveau_2_0_data import *
-from niveau_2_1_data import *
+# Niveau 
+from Niveaux.niveau_2_0_data import *
+from Niveaux.niveau_2_1_data import *
 
 # Niveau 3
-from niveau_3_0_data import *
+from Niveaux.niveau_3_0_data import *
 
 # Niveau 4
-from niveau_4_0_data import *
+from Niveaux.niveau_4_0_data import *
 
 # Niveau 5
-from niveau_5_0_data import *
+from Niveaux.niveau_5_0_data import *
 
 # Niveau 6
-from niveau_6_0_data import *
+from Niveaux.niveau_6_0_data import *
 
 pygame.init()  # Lancement du module Pygame et création de la fenêtre
 
