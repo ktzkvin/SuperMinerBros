@@ -33,16 +33,16 @@ Embark on an adventure across various levels with interactive features, enemies,
 
 1. Clone the repository:
 
-   §§bash  
+   ```bash  
    git clone https://github.com/ktzkvin/SuperMinerBros.git  
    cd SuperMinerBros  
-   §§
+   ```
 
 2. Install the required dependencies:
 
-   §§bash  
+   ```bash  
    pip install -r requirements.txt  
-   §§
+   ```
 
 ---
 
@@ -50,9 +50,9 @@ Embark on an adventure across various levels with interactive features, enemies,
 
 1. Run the game:
    
-   §§bash  
+   ```bash  
    python main.py  
-   §§
+   ```
 
 2. Use the following controls:
    - **Arrow Keys**: Move left/right.
