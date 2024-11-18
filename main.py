@@ -35,7 +35,7 @@ pygame.init()  # Lancement du module Pygame et création de la fenêtre
 # Initialisation de la musique dans le jeu
 pygame.mixer.init()
 # Musique de fond, -1 pour répétition infinie, 0 pour le premier canal afin de pouvoir mettre plusieurs sons en même temps
-pygame.mixer.Channel(0).play(pygame.mixer.Sound("muse.mp3"), -1)
+pygame.mixer.Channel(0).play(pygame.mixer.Sound("assets/Musics/muse.mp3"), -1)
 
 # Configurations
 screen = pygame.display.set_mode(
@@ -1189,7 +1189,7 @@ class HA:
 
     def event(self, go_off, go_2_off, go_3_off, dx_off, dy_off, dx_2_off, dy_2_off, dx_3_off, dy_3_off):
         if go_off:
-            pygame.mixer.Channel(1).play(pygame.mixer.Sound("HA.mp3"),
+            pygame.mixer.Channel(1).play(pygame.mixer.Sound("assets/Musics/HA.mp3"),
                                          2)  # Son du HA sur un 2e canal pour laisser la musique de fond à côté
 
             go_off = False
@@ -1433,7 +1433,7 @@ while Pygame:  # Exécution en boucle
                 dialogue, cpt, cpt_2 = dialogue_1(dialogue, Niveau, cpt, cpt_2, game_pause)
             cpt_fin += 1
             if cpt_fin == 30:
-                pygame.mixer.Channel(2).play(pygame.mixer.Sound("musique_boss.mp3"), -1)
+                pygame.mixer.Channel(2).play(pygame.mixer.Sound("assets/Musics/musique_boss.mp3"), -1)
             elif 70 < cpt_fin < 110:
                 rx, ry, cpt_4 = screen_shaking(game_pause, rx, ry, cpt_4)
             elif 150 < cpt_fin < 190:

@@ -9,7 +9,7 @@ joueur_x, joueur_y = (0,) * 2
 
 
 # ------------------------ Importation des images (Buttons / blocs / props...) ------------------------ #
-logo = pygame.image.load("logo.png")
+logo = pygame.image.load("assets/logo.png")
 Titre_bloc = pygame.image.load("assets/Buttons/Titre_bloc.png")
 bouton_jouer_img = pygame.image.load("assets/Buttons/Jouer.png")
 bouton_quitter_img = pygame.image.load("assets/Buttons/Quitter.png")
@@ -57,7 +57,7 @@ background_night_flou = pygame.image.load("assets/Backgrounds/background_night_f
 background_cave = pygame.image.load("assets/Backgrounds/background_cave.png")
 background_pause = pygame.image.load("assets/Backgrounds/background_pause.png")
 background_off = background_night
-black_circle = pygame.image.load("black-circle.png")
+black_circle = pygame.image.load("assets/black-circle.png")
 vide_img = pygame.image.load("assets/entities/Tile_2/Tile_0.png")
 cristaux_img = pygame.image.load("assets/entities/cristaux_2/cristal_1.png")
 caillou_img = pygame.image.load("assets/entities/caillou_2/1.png")
@@ -66,7 +66,7 @@ BarreDeVie0 = pygame.image.load("assets/BarreDeVie/BarreDeVie0.png")
 BarreDeVie1 = pygame.image.load("assets/BarreDeVie/BarreDeVie1.png")
 BarreDeVie2 = pygame.image.load("assets/BarreDeVie/BarreDeVie2.png")
 BarreDeVie3 = pygame.image.load("assets/BarreDeVie/BarreDeVie3.png")
-game_over = pygame.image.load("game_over.png")
+game_over = pygame.image.load("assets/game_over.png")
 
 dico = {}
 L_assets = ["Tile", "cave", "boxe", "fence", "ladder", "pointer", "lamp", "flag", "arch", "pillar",
