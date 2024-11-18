@@ -958,7 +958,7 @@ class Boss(pygame.sprite.Sprite):
                 ennemi_groupe.empty()  # Suppression des entités
                 pygame.mixer.Channel(2).fadeout(1000)  # Arrêt de la musique *épique*
 
-        BarreDeVie = pygame.image.load("BarreDeVie{}.png".format(vie_boss_off))
+        BarreDeVie = pygame.image.load("assets/BarreDeVie/BarreDeVie{}.png".format(vie_boss_off))
         screen.blit(BarreDeVie, (screen_width / 2 - BarreDeVie1.get_width() / 2, 15))
 
     def hit(self):
