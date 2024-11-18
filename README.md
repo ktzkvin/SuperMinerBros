@@ -4,7 +4,8 @@ Welcome to the **Super Miner Bros** project, a platformer game developed in **Py
 Embark on an adventure across various levels with interactive features, enemies and collectibles.
 
 ![Character Walking Animation](assets/player/Walk/Walk_1.gif)
-<img src="assets/entities/Slime/Walk/big_size/00-export.gif" alt="Character Walking Animation" style="width:300px; height:auto;">
+&nbsp;&nbsp;&nbsp;
+<img src="assets/entities/Slime/Walk/big_size/slime-animation.gif" alt="Character Walking Animation" style="width:160px; height:auto">
 
 ## 🤝 Collaborators
 
@@ -106,13 +107,7 @@ Each level introduces new enemies, environments and objectives. Progress is save
 <img src="screenshots/menu.png" alt="Menu Screenshot" width="100%">
 
 ### Gameplay
-<img src="screenshots/gameplay.png" alt="Gameplay Screenshot" width="100%">
+[![Watch the video](https://img.youtube.com/vi/CVsCpO-YR-A/maxresdefault.jpg)](https://www.youtube.com/watch?v=CVsCpO-YR-A&ab_channel=Rafixol)
 
----
-
-## 🧩 Technologies Used
-
-- **Pygame** for the game engine.
-- **Python** for logic and implementation.
 
 ---
