@@ -1,7 +1,7 @@
 # 🎮 Super Miner Bros - Platform Game
 
 Welcome to the **Super Miner Bros** project, a platformer game developed in **Python** using **Pygame**! 🌟<br>
-Embark on an adventure across various levels with interactive features, enemies, and collectibles.
+Embark on an adventure across various levels with interactive features, enemies and collectibles.
 
 ## 👤 Authors
 - [![GitHub](https://img.shields.io/badge/GitHub-ktzkvin-blue?logo=github&style=flat-square)](https://github.com/ktzkvin)  
@@ -14,12 +14,12 @@ Embark on an adventure across various levels with interactive features, enemies,
 ## 📋 Features
 
 - 🕹️ **Platformer Gameplay**: Navigate your character through challenging levels with enemies and collectibles.
-- 🎨 **Pixel Art Design**: Beautifully crafted assets with animations for players, enemies, and objects.
+- 🎨 **Pixel Art Design**: Beautifully crafted assets with animations for players, enemies and objects.
 - 🎶 **Immersive Audio**: Background music and sound effects that enhance the game experience.
 - 🌌 **Level-Based Progression**: Multiple levels, each with unique challenges and environments.
 - 🏆 **Save and Load Profiles**: Store your game progress in one of three profiles.
 - 👾 **Enemies and Bosses**: Battle against various enemies and a challenging boss level.
-- 🌧️ **Interactive Environments**: Includes rain, moving platforms, and screen shake effects.
+- 🌧️ **Interactive Environments**: Includes rain, moving platforms and screen shake effects.
 
 ---
 
@@ -68,7 +68,7 @@ Embark on an adventure across various levels with interactive features, enemies,
 - **`main.py`**: Main game file containing logic and gameplay.
 - **`settings.py`**: Game configurations like screen dimensions and tile sizes.
 - **`Niveaux/`**: Level data for the game.
-- **`assets/`**: All images, music, and animations for the game.
+- **`assets/`**: All images, music and animations for the game.
 - **`save.txt`**: Stores player progress.
 
 ---
@@ -76,7 +76,7 @@ Embark on an adventure across various levels with interactive features, enemies,
 ## 📊 Game Features
 
 ### Level System
-Each level introduces new enemies, environments, and objectives. Progress is saved automatically.
+Each level introduces new enemies, environments and objectives. Progress is saved automatically.
 
 ### Enemies
 - **Slimes**: Basic enemies that move left and right.
@@ -112,7 +112,7 @@ Each level introduces new enemies, environments, and objectives. Progress is sav
 
 ## 💡 Notes
 
-- The game is still under development, and new features may be added in future updates.
+- The game is still under development and new features may be added in future updates.
 - Ensure all assets are placed in their correct directories as specified in `main.py`.
 
 ---
