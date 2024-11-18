@@ -3,11 +3,15 @@
 Welcome to the **Super Miner Bros** project, a platformer game developed in **Python** using **Pygame**! 🌟<br>
 Embark on an adventure across various levels with interactive features, enemies and collectibles.
 
-## 👤 Authors
-- [![GitHub](https://img.shields.io/badge/GitHub-ktzkvin-blue?logo=github&style=flat-square)](https://github.com/ktzkvin)  
-- [![GitHub](https://img.shields.io/badge/GitHub-Nbleoo-blue?logo=github&style=flat-square)](https://github.com/Nbleoo)  
-- [![GitHub](https://img.shields.io/badge/GitHub-Oliver2Carglass-blue?logo=github&style=flat-square)](https://github.com/oliver2Carglass)  
-- [![GitHub](https://img.shields.io/badge/GitHub-Rafixol-blue?logo=github&style=flat-square)](https://github.com/Rafixol)  
+## 🤝 Collaborators
+
+### 💻 Developers
+- [![GitHub](https://img.shields.io/badge/GitHub-ktzkvin-green?logo=github&style=flat-square)](https://github.com/ktzkvin)  
+- [![GitHub](https://img.shields.io/badge/GitHub-Nbleoo-green?logo=github&style=flat-square)](https://github.com/Nbleoo)  
+
+### 🎨 Game Designers
+- [![GitHub](https://img.shields.io/badge/GitHub-Oliver2Carglass-purple?logo=github&style=flat-square)](https://github.com/oliver2Carglass)  
+- [![GitHub](https://img.shields.io/badge/GitHub-Rafixol-purple?logo=github&style=flat-square)](https://github.com/Rafixol)  
 
 ---
 
