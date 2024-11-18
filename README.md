@@ -3,14 +3,8 @@
 Welcome to the **Super Miner Bros** project, a platformer game developed in **Python** using **Pygame**! 🌟<br>
 Embark on an adventure across various levels with interactive features, enemies, and collectibles.
 
-## 👤 Author
-[![GitHub](https://img.shields.io/badge/GitHub-ktzkvin-blue?logo=github&style=flat-square)](https://github.com/ktzkvin)  
-[![Mail](https://img.shields.io/badge/Email-kevin.kurtz@efrei.net-blue?logo=gmail&style=flat-square)](mailto:kevin.kurtz@efrei.net)
-
----
-
-## 🤝 Collaborators
-
+## 👤 Authors
+- [![GitHub](https://img.shields.io/badge/GitHub-ktzkvin-blue?logo=github&style=flat-square)](https://github.com/ktzkvin)  
 - [![GitHub](https://img.shields.io/badge/GitHub-Nbleoo-blue?logo=github&style=flat-square)](https://github.com/Nbleoo)  
 - [![GitHub](https://img.shields.io/badge/GitHub-Oliver2Carglass-blue?logo=github&style=flat-square)](https://github.com/oliver2Carglass)  
 - [![GitHub](https://img.shields.io/badge/GitHub-Rafixol-blue?logo=github&style=flat-square)](https://github.com/Rafixol)  
