@@ -4,7 +4,7 @@ Welcome to the **Super Miner Bros** project, a platformer game developed in **Py
 Embark on an adventure across various levels with interactive features, enemies and collectibles.
 
 ![Character Walking Animation](assets/player/Walk/Walk_1.gif)
-![Slime Walking Animation](assets/entities/Slime/Walk/big_size/00-export.gif){ width=300px }
+<img src="assets/animations/Walk_1.gif" alt="Character Walking Animation" style="width:300px; height:auto;">
 
 ## 🤝 Collaborators
 
