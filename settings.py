@@ -61,7 +61,7 @@ black_circle = pygame.image.load("black-circle.png")
 vide_img = pygame.image.load("assets/entities/Tile_2/Tile_0.png")
 cristaux_img = pygame.image.load("assets/entities/cristaux_2/cristal_1.png")
 caillou_img = pygame.image.load("assets/entities/caillou_2/1.png")
-nuage_img = pygame.image.load("assets/nuages/cloud_night.png")
+nuage_img = pygame.image.load("assets/entities/nuages/cloud_night.png")
 BarreDeVie0 = pygame.image.load("BarreDeVie0.png")
 BarreDeVie1 = pygame.image.load("BarreDeVie1.png")
 BarreDeVie2 = pygame.image.load("BarreDeVie2.png")
@@ -75,11 +75,11 @@ L_assets = ["Tile", "cave", "boxe", "fence", "ladder", "pointer", "lamp", "flag"
 # Création d'un dictionnaire des assets, chacun associé à un ID (la clé du dico)
 k = 1
 for assets in L_assets:
-    fichiers = os.listdir("assets/{}".format(assets))
+    fichiers = os.listdir("assets/Props/{}".format(assets))
     cpt_fichiers = len(fichiers)  # Compteur du nombre de fichiers existants dans le dossier
     for i in range(1, cpt_fichiers + 1):
         # Importation des assets dans le dico
-        dico[k] = pygame.image.load("assets/{}/{}_{}.png".format(assets, assets, i))
+        dico[k] = pygame.image.load("assets/Props/{}/{}_{}.png".format(assets, assets, i))
         k += 1
 # ------------------------------------------------------------------------------------------------ #
 

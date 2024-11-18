@@ -1140,7 +1140,7 @@ class RandomBloc(pygame.sprite.Sprite):
 class Villageois(pygame.sprite.Sprite):
     def __init__(self, x, y):
         pygame.sprite.Sprite.__init__(self)
-        self.image = pygame.transform.flip(pygame.image.load("assets/Villageois/Idle_1.png"), True, False)
+        self.image = pygame.transform.flip(pygame.image.load("assets/entities/Villageois/Idle_1.png"), True, False)
         self.image = pygame.transform.scale(self.image, (25, 45))
         self.rect = self.image.get_rect()
         self.rect.x = x
@@ -1151,7 +1151,7 @@ class VillageoisCinematic(pygame.sprite.Sprite):
     k = 0
     L = []
     for ID in range(4, 7):  # Importation des images
-        image = pygame.transform.flip(pygame.image.load("assets/Villageois/Idle_{}.png".format(ID)), True, False)
+        image = pygame.transform.flip(pygame.image.load("assets/entities/Villageois/Idle_{}.png".format(ID)), True, False)
         L.append(image)
 
     def __init__(self, x, y):
