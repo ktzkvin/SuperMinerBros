@@ -109,64 +109,64 @@ def dialogue_2(new_intro, cpt_off, cpt_2_off, Mort_off, go_off, go_2_off, go_3_o
         if pygame.key.get_pressed()[pygame.K_a] and cpt_2_off == 0 and cpt_off == 0:
             cpt_2_off = 1
         if cpt_2_off == 0:
-            texte_intro = pygame.image.load("Textes/texte_cine_bob_1.png")
+            texte_intro = pygame.image.load("assets/Texts/texte_cine_bob_1.png")
         elif cpt_2_off == 1 and cpt_off == 0:
-            texte_intro = pygame.image.load("Textes/texte_cine_bob_2.png")
+            texte_intro = pygame.image.load("assets/Texts/texte_cine_bob_2.png")
 
         if pygame.key.get_pressed()[pygame.K_b] and cpt_off == 0:
             cpt_off = -1
         if cpt_off == -1:
-            texte_intro = pygame.image.load("Textes/texte_cine_vi_1.png")
+            texte_intro = pygame.image.load("assets/Texts/texte_cine_vi_1.png")
 
         if pygame.key.get_pressed()[pygame.K_a] and cpt_off == -1:
             cpt_off = 2
         if cpt_off == 2:
-            texte_intro = pygame.image.load("Textes/texte_cine_bob_3.png")
+            texte_intro = pygame.image.load("assets/Texts/texte_cine_bob_3.png")
 
         if pygame.key.get_pressed()[pygame.K_b] and cpt_off == 2:
             cpt_off = 3
         if cpt_off == 3:
-            texte_intro = pygame.image.load("Textes/texte_cine_bob_4.png")
+            texte_intro = pygame.image.load("assets/Texts/texte_cine_bob_4.png")
 
         if pygame.key.get_pressed()[pygame.K_a] and cpt_off == 3:
             cpt_off = 4
         if cpt_off == 4:
-            texte_intro = pygame.image.load("Textes/texte_cine_vi_2.png")
+            texte_intro = pygame.image.load("assets/Texts/texte_cine_vi_2.png")
 
         if pygame.key.get_pressed()[pygame.K_b] and cpt_off == 4:
             cpt_off = 5
         if cpt_off == 5:
-            texte_intro = pygame.image.load("Textes/texte_cine_bob_5.png")
+            texte_intro = pygame.image.load("assets/Texts/texte_cine_bob_5.png")
 
         if pygame.key.get_pressed()[pygame.K_a] and cpt_off == 5:
             cpt_off = 6
         if cpt_off == 6:
-            texte_intro = pygame.image.load("Textes/texte_cine_bob_6.png")
+            texte_intro = pygame.image.load("assets/Texts/texte_cine_bob_6.png")
 
         if pygame.key.get_pressed()[pygame.K_b] and cpt_off == 6:
             cpt_off = 7
         if cpt_off == 7:
-            texte_intro = pygame.image.load("Textes/texte_cine_vi_3.png")
+            texte_intro = pygame.image.load("assets/Texts/texte_cine_vi_3.png")
 
         if pygame.key.get_pressed()[pygame.K_a] and cpt_off == 7:
             cpt_off = 8
         if cpt_off == 8:
-            texte_intro = pygame.image.load("Textes/texte_cine_vi_4.png")
+            texte_intro = pygame.image.load("assets/Texts/texte_cine_vi_4.png")
 
         if pygame.key.get_pressed()[pygame.K_b] and cpt_off == 8:
             cpt_off = 9
         if cpt_off == 9:
-            texte_intro = pygame.image.load("Textes/texte_cine_vi_5.png")
+            texte_intro = pygame.image.load("assets/Texts/texte_cine_vi_5.png")
 
         if pygame.key.get_pressed()[pygame.K_a] and cpt_off == 9:
             cpt_off = 10
         if cpt_off == 10:
-            texte_intro = pygame.image.load("Textes/texte_cine_vi_6.png")
+            texte_intro = pygame.image.load("assets/Texts/texte_cine_vi_6.png")
 
         if pygame.key.get_pressed()[pygame.K_b] and cpt_off == 10:
             cpt_off = 11
         if cpt_off == 11:
-            texte_intro = pygame.image.load("Textes/texte_cine_bob_7.png")
+            texte_intro = pygame.image.load("assets/Texts/texte_cine_bob_7.png")
             go_off, go_2_off, go_3_off, dx_off, dy_off, dx_2_off, dy_2_off, dx_3_off, dy_3_off = HA.event(go_off,
                                                                                                           go_2_off,
                                                                                                           go_3_off,
@@ -443,21 +443,21 @@ class Joueur:  # Création du joueur
 
         # Animation Base (= immobile)
         for num in range(1, 5):
-            joueur_base_droite = pygame.image.load("player/Idle/Idle_{}.png".format(num))
+            joueur_base_droite = pygame.image.load("assets/player/Idle/Idle_{}.png".format(num))
             joueur_base_droite = pygame.transform.scale(joueur_base_droite, (27, 48))  # Rescale
             joueur_base_gauche = pygame.transform.flip(joueur_base_droite, True, False)  # Effet miroir de l'image
             self.images_base["droite"].append(joueur_base_droite)
             self.images_base["gauche"].append(joueur_base_gauche)
 
         for num in range(5, 9):
-            joueur_base_gauche = pygame.image.load("player/Idle/Idle_{}.png".format(num))
+            joueur_base_gauche = pygame.image.load("assets/player/Idle/Idle_{}.png".format(num))
             self.images_base["gauche_vgo"].append(joueur_base_gauche)
             joueur_base_droite = pygame.transform.flip(joueur_base_gauche, True, False)  # Effet miroir de l'image
             self.images_base["droite_vgo"].append(joueur_base_droite)
 
         # Animation Marche
         for num in range(1, 7):
-            joueur_droite = pygame.image.load("player/Walk/Walk_{}.png".format(num))
+            joueur_droite = pygame.image.load("assets/player/Walk/Walk_{}.png".format(num))
             joueur_droite = pygame.transform.scale(joueur_droite, (27, 48))
             joueur_gauche = pygame.transform.flip(joueur_droite, True, False)
             self.images_gauche.append(joueur_gauche)
@@ -465,7 +465,7 @@ class Joueur:  # Création du joueur
 
         # Animation Mort
         for num in range(1, 5):
-            joueur_mort_droite = pygame.image.load("player/Death/Death_{}.png".format(num))
+            joueur_mort_droite = pygame.image.load("assets/player/Death/Death_{}.png".format(num))
             joueur_mort_droite = pygame.transform.scale(joueur_mort_droite, (44, 56))
             joueur_mort_gauche = pygame.transform.flip(joueur_mort_droite, True, False)
             self.image_mort["droite"].append(joueur_mort_droite)
@@ -1182,7 +1182,7 @@ class VillageoisCinematic(pygame.sprite.Sprite):
 
 class HA:
     def __init__(self, x, y):
-        self.image = pygame.image.load("Textes/ha.png")
+        self.image = pygame.image.load("assets/Texts/ha.png")
         self.rect = self.image.get_rect()
         self.rect.x = x
         self.rect.y = y
