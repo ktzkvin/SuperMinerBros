@@ -69,15 +69,15 @@ BarreDeVie3 = pygame.image.load("assets/BarreDeVie/BarreDeVie3.png")
 game_over = pygame.image.load("assets/game_over.png")
 
 dico = {}
-L_assets = ["Tile", "cave", "boxe", "fence", "ladder", "pointer", "lamp", "flag", "arch", "pillar",
-            "wagon", "chest", "crystal", "caillou", "plante"]
+L_assets = ["Tile", "cave", "boxe", "fence", "ladder", "pointer", "lamp", "flag", "arch", "pillar", "wagon", "chest", "crystal", "caillou", "plante"]
 
 # Création d'un dictionnaire des assets, chacun associé à un ID (la clé du dico)
 k = 1
 for assets in L_assets:
     fichiers = os.listdir("assets/Props/{}".format(assets))
-    cpt_fichiers = len(fichiers)  # Compteur du nombre de fichiers existants dans le dossier
+    cpt_fichiers = len(fichiers)
     for i in range(1, cpt_fichiers + 1):
+
         # Importation des assets dans le dico
         dico[k] = pygame.image.load("assets/Props/{}/{}_{}.png".format(assets, assets, i))
         k += 1

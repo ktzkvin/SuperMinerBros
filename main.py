@@ -7,7 +7,7 @@ import pygame.sprite
 # Importation des paramètres
 from settings import *
 
-# Importation des niveaux et leurs données
+# ---------- Importation des niveaux et de leurs données ----------
 # Niveaux intro 0
 from Niveaux.niveau_0_0_data import *
 from Niveaux.niveau_0_1_data import *
@@ -48,7 +48,10 @@ clock = pygame.time.Clock()  # Création d'une horloge pour limiter le nombre de
 
 
 # Fonctions
-def get_niveau(profil):  # Fonction qui permet de récupérer le niveau en fonction du profil
+def get_niveau(profil):
+    """
+    Fonction qui permet de récupérer le niveau en fonction du profil
+    """
     with open("save.txt", 'r') as fr:
         lignes = fr.read()
         profil_niveau = lignes.split("profile:")[profil]
@@ -56,7 +59,10 @@ def get_niveau(profil):  # Fonction qui permet de récupérer le niveau en fonct
     return Niveau_off
 
 
-def save_niveau(profil, niveau):  # Fonction qui permet de sauvegarder le niveau en fonction du profil
+def save_niveau(profil, niveau):
+    """
+    Fonction qui permet de sauvegarder le niveau en fonction du profil
+    """
     with open("save.txt", 'r') as fr:
         lignes = fr.readlines()
     with open("save.txt", 'w') as fw:
@@ -65,13 +71,19 @@ def save_niveau(profil, niveau):  # Fonction qui permet de sauvegarder le niveau
             fw.write(ligne)
 
 
-def grille():  # Création de lignes formant une grille en fonction de la taille des tuiles définie
+def grille():
+    """
+    Création de lignes formant une grille en fonction de la taille des tuiles définie
+    """
     for line in range(0, 40):
         pygame.draw.line(screen, (255, 0, 255), (0, line * taille_tuile), (screen_width, line * taille_tuile))
         pygame.draw.line(screen, (255, 0, 255), (line * taille_tuile, 0), (line * taille_tuile, screen_height))
 
 
-def tuile_bloc(bloc, cpt_colonne, cpt_ligne, tuile_list, id):  # Fonction crée un tuple d'informations des tuiles
+def tuile_bloc(bloc, cpt_colonne, cpt_ligne, tuile_list, id):
+    """
+    Fonction crée un tuple d'informations des tuiles
+    """
     # Redimensionne à la bonne taille de tuile définie
     img = pygame.transform.scale(bloc, (taille_tuile, taille_tuile))
     # Création d'un tuple d'informations des tuiles
@@ -82,8 +94,10 @@ def tuile_bloc(bloc, cpt_colonne, cpt_ligne, tuile_list, id):  # Fonction crée 
     tuile_list.append(tuile)
 
 
-def dialogue_1(dialogue_off, Niveau_off, cpt_off, cpt_2_off,
-               game_pause_off):  # Fonction création de dialogue.
+def dialogue_1(dialogue_off, Niveau_off, cpt_off, cpt_2_off, game_pause_off):
+    """
+    Fonction qui permet de créer un dialogue en fonction du niveau
+    """
     texte = texte_intro_1
     if Niveau_off == 1:
         texte = texte_intro_2
@@ -105,9 +119,10 @@ def dialogue_1(dialogue_off, Niveau_off, cpt_off, cpt_2_off,
     return dialogue_off, cpt_off, cpt_2_off
 
 
-def dialogue_2(new_intro, cpt_off, cpt_2_off, Mort_off, go_off, go_2_off, go_3_off, dx_off,
-               dy_off, dx_2_off, dy_2_off, dx_3_off, dy_3_off, end_vgo_cine_off):
-    # Fonction création de dialogue
+def dialogue_2(new_intro, cpt_off, cpt_2_off, Mort_off, go_off, go_2_off, go_3_off, dx_off, dy_off, dx_2_off, dy_2_off, dx_3_off, dy_3_off, end_vgo_cine_off):
+    """
+    Fonction qui permet de créer un dialogue en fonction du niveau
+    """
     if Mort_off == 3:
         if pygame.key.get_pressed()[pygame.K_a] and cpt_2_off == 0 and cpt_off == 0:
             cpt_2_off = 1
