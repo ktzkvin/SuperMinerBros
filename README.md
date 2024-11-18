@@ -110,10 +110,3 @@ Each level introduces new enemies, environments and objectives. Progress is save
 <img src="screenshots/gameplay.png" alt="Gameplay Screenshot" width="100%">
 
 ---
-
-## 🧩 Technologies Used
-
-- **Pygame** for the game engine.
-- **Python** for logic and implementation.
-
----
