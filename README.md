@@ -11,7 +11,7 @@ Embark on an adventure across various levels with interactive features, enemies 
 ## 🤝 Collaborators
 
 ### <div style="display: flex; align-items: center; justify-content: space-between;">
-💻 Developers &nbsp;&nbsp;
+💻 Developers &nbsp;
 <img src="assets/player/Walk/Walk_1.gif" alt="Character" style="width: 50px; height: auto;">
 </div>
 
