@@ -1,22 +1,30 @@
 # 🎮 Super Miner Bros - Platform Game
-![Logo SMB](assets/logo.png)
 
+<div align="center">
+    <img src="assets/logo.jpg" alt="Logo SMB">
+</div>
+
+<br> <br>
 Welcome to the **Super Miner Bros** project, a platformer game developed in **Python** using **Pygame**! 🌟<br>
 Embark on an adventure across various levels with interactive features, enemies and collectibles.
 
-![Character Walking Animation](assets/player/Walk/Walk_1.gif)
-&nbsp;&nbsp;&nbsp;
-<img src="assets/entities/Slime/Walk/big_size/slime-animation.gif" alt="Character Walking Animation" style="width:160px; height:auto">
-
 ## 🤝 Collaborators
 
-### 💻 Developers
+### <div style="display: flex; align-items: center; justify-content: space-between;">
+💻 Developers &nbsp;
+<img src="assets/player/Walk/Walk_1.gif" alt="Character" style="width: 34px; height: auto;">
+</div>
+
 - [![GitHub](https://img.shields.io/badge/GitHub-ktzkvin-03a9fc?logo=github&style=flat-square)](https://github.com/ktzkvin)  
 - [![GitHub](https://img.shields.io/badge/GitHub-Nbleoo-03a9fc?logo=github&style=flat-square)](https://github.com/Nbleoo)  
 
-### 🎨 Game Designers
+### <div style="display: flex; align-items: center; justify-content: space-between;">
+🎨 Game Designers &nbsp;&nbsp;
+<img src="assets/entities/Slime/Walk/big_size/slime-animation.gif" alt="Slime" style="width: 50px; height: auto;">
+</div>
+
 - [![GitHub](https://img.shields.io/badge/GitHub-Oliver2Carglass-fcb503?logo=github&style=flat-square)](https://github.com/oliver2Carglass)  
-- [![GitHub](https://img.shields.io/badge/GitHub-Rafixol-fcb503?logo=github&style=flat-square)](https://github.com/Rafixol)  
+- [![GitHub](https://img.shields.io/badge/GitHub-Rafixol-fcb503?logo=github&style=flat-square)](https://github.com/Rafixol)
 
 ---
 
