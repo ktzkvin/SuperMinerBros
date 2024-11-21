@@ -15,12 +15,14 @@ Embark on an adventure across various levels with interactive features, enemies 
 ## 🤝 Collaborators
 
 ### 💻 Developers
-- [![GitHub](https://img.shields.io/badge/GitHub-ktzkvin-03a9fc?logo=github&style=flat-square)](https://github.com/ktzkvin)  
-- [![GitHub](https://img.shields.io/badge/GitHub-Nbleoo-03a9fc?logo=github&style=flat-square)](https://github.com/Nbleoo)  
+| ![Character](assets/player/Walk/Walk_1.gif) | [![GitHub](https://img.shields.io/badge/GitHub-ktzkvin-03a9fc?logo=github&style=flat-square)](https://github.com/ktzkvin)  
+[![GitHub](https://img.shields.io/badge/GitHub-Nbleoo-03a9fc?logo=github&style=flat-square)](https://github.com/Nbleoo) |
+|---------------------------------------------|-------------------------------------------------------------------------------------------------|
 
 ### 🎨 Game Designers
-- [![GitHub](https://img.shields.io/badge/GitHub-Oliver2Carglass-fcb503?logo=github&style=flat-square)](https://github.com/oliver2Carglass)  
-- [![GitHub](https://img.shields.io/badge/GitHub-Rafixol-fcb503?logo=github&style=flat-square)](https://github.com/Rafixol)  
+| ![Slime](assets/entities/Slime/Walk/big_size/slime-animation.gif) | [![GitHub](https://img.shields.io/badge/GitHub-Oliver2Carglass-fcb503?logo=github&style=flat-square)](https://github.com/oliver2Carglass)  
+[![GitHub](https://img.shields.io/badge/GitHub-Rafixol-fcb503?logo=github&style=flat-square)](https://github.com/Rafixol) |
+|---------------------------------------------|-------------------------------------------------------------------------------------------------|
 
 ---
 
