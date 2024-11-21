@@ -12,7 +12,7 @@ Embark on an adventure across various levels with interactive features, enemies 
 
 ### <div style="display: flex; align-items: center; justify-content: space-between;">
 💻 Developers &nbsp;
-<img src="assets/player/Walk/Walk_1.gif" alt="Character" style="width: 50px; height: auto;">
+<img src="assets/player/Walk/Walk_1.gif" alt="Character" style="width: 25px; height: auto;">
 </div>
 
 - [![GitHub](https://img.shields.io/badge/GitHub-ktzkvin-03a9fc?logo=github&style=flat-square)](https://github.com/ktzkvin)  
