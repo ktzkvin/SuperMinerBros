@@ -1,6 +1,10 @@
 # 🎮 Super Miner Bros - Platform Game
-![Logo SMB](assets/logo.jpg)
 
+<div align="center">
+    <img src="assets/logo.jpg" alt="Logo SMB">
+</div>
+
+<br> <br>
 Welcome to the **Super Miner Bros** project, a platformer game developed in **Python** using **Pygame**! 🌟<br>
 Embark on an adventure across various levels with interactive features, enemies and collectibles.
 
