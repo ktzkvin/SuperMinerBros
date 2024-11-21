@@ -11,7 +11,7 @@ Embark on an adventure across various levels with interactive features, enemies 
 ## 🤝 Collaborators
 
 ### <div style="display: flex; align-items: center; justify-content: space-between;">
-💻 Developers &nbsp;&nbsp;&nbsp;
+💻 Developers &nbsp;&nbsp;
 <img src="assets/player/Walk/Walk_1.gif" alt="Character" style="width: 50px; height: auto;">
 </div>
 
@@ -19,7 +19,7 @@ Embark on an adventure across various levels with interactive features, enemies 
 - [![GitHub](https://img.shields.io/badge/GitHub-Nbleoo-03a9fc?logo=github&style=flat-square)](https://github.com/Nbleoo)  
 
 ### <div style="display: flex; align-items: center; justify-content: space-between;">
-🎨 Game Designers &nbsp;&nbsp;&nbsp;
+🎨 Game Designers &nbsp;&nbsp;
 <img src="assets/entities/Slime/Walk/big_size/slime-animation.gif" alt="Slime" style="width: 50px; height: auto;">
 </div>
 
