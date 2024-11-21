@@ -41,8 +41,7 @@ pygame.mixer.init()
 pygame.mixer.Channel(0).play(pygame.mixer.Sound("assets/Musics/muse.mp3"), -1)
 
 # Configurations
-screen = pygame.display.set_mode(
-    (screen_width, screen_height))  # Création de la fenêtre (note : + pygame. FULLSCREEN pour plein écran)
+screen = pygame.display.set_mode((screen_width, screen_height))  # Création de la fenêtre (note : + pygame. FULLSCREEN pour plein écran)
 pygame.display.set_caption("Super Miner Bros.")  # Titre de la fenêtre
 clock = pygame.time.Clock()  # Création d'une horloge pour limiter le nombre de FPS
 
