@@ -14,23 +14,21 @@ Embark on an adventure across various levels with interactive features, enemies 
 
 ## 🤝 Collaborators
 
-### 💻 Developers
-<div style="display: flex; align-items: center; gap: 10px;">
-    <img src="assets/player/Walk/Walk_1.gif" alt="Character" style="width: 60px; height: auto;">
-    <div>
-        <a href="https://github.com/ktzkvin"><img src="https://img.shields.io/badge/GitHub-ktzkvin-03a9fc?logo=github&style=flat-square" alt="GitHub ktzkvin"></a><br>
-        <a href="https://github.com/Nbleoo"><img src="https://img.shields.io/badge/GitHub-Nbleoo-03a9fc?logo=github&style=flat-square" alt="GitHub Nbleoo"></a>
-    </div>
+### <div style="display: flex; align-items: center; justify-content: space-between;">
+💻 Developers
+<img src="assets/player/Walk/Walk_1.gif" alt="Character" style="width: 50px; height: auto;">
 </div>
 
-### 🎨 Game Designers
-<div style="display: flex; align-items: center; gap: 10px;">
-    <img src="assets/entities/Slime/Walk/big_size/slime-animation.gif" alt="Slime" style="width: 60px; height: auto;">
-    <div>
-        <a href="https://github.com/oliver2Carglass"><img src="https://img.shields.io/badge/GitHub-Oliver2Carglass-fcb503?logo=github&style=flat-square" alt="GitHub Oliver2Carglass"></a><br>
-        <a href="https://github.com/Rafixol"><img src="https://img.shields.io/badge/GitHub-Rafixol-fcb503?logo=github&style=flat-square" alt="GitHub Rafixol"></a>
-    </div>
+- [![GitHub](https://img.shields.io/badge/GitHub-ktzkvin-03a9fc?logo=github&style=flat-square)](https://github.com/ktzkvin)  
+- [![GitHub](https://img.shields.io/badge/GitHub-Nbleoo-03a9fc?logo=github&style=flat-square)](https://github.com/Nbleoo)  
+
+### <div style="display: flex; align-items: center; justify-content: space-between;">
+🎨 Game Designers
+<img src="assets/entities/Slime/Walk/big_size/slime-animation.gif" alt="Slime" style="width: 50px; height: auto;">
 </div>
+
+- [![GitHub](https://img.shields.io/badge/GitHub-Oliver2Carglass-fcb503?logo=github&style=flat-square)](https://github.com/oliver2Carglass)  
+- [![GitHub](https://img.shields.io/badge/GitHub-Rafixol-fcb503?logo=github&style=flat-square)](https://github.com/Rafixol)
 
 ---
 
