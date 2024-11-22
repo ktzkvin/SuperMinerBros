@@ -33,6 +33,21 @@ from Niveaux.niveau_5_0_data import *
 # Niveau 6
 from Niveaux.niveau_6_0_data import *
 
+# Niveau 7
+from Niveaux.niveau_7_0_data import *
+
+#Niveau 8
+from Niveaux.niveau_8_0_data import *
+
+#Niveau 9
+from Niveaux.niveau_9_0_data import *
+
+#Niveau 9 partie 2
+from Niveaux.niveau_9_1_data import *
+
+#Niveau 10
+from Niveaux.niveau_10_0data import *
+
 pygame.init()  # Lancement du module Pygame et création de la fenêtre
 
 # Initialisation de la musique dans le jeu
@@ -104,7 +119,7 @@ def dialogue_1(dialogue_off, Niveau_off, cpt_off, cpt_2_off, game_pause_off):
         texte = texte_intro_3
     if Niveau_off == 5 or Niveau_off == 6:
         texte = texte_cle
-    if Niveau_off == 10:
+    if Niveau_off == 15:
         texte = texte_boss
     touche = pygame.key.get_pressed()
     if (touche[pygame.K_LEFT] or touche[pygame.K_RIGHT] or touche[pygame.K_SPACE]) and not game_pause_off:
@@ -227,7 +242,12 @@ def reset_niveau(Niveau_off):  # Niveau suivant
         7: {"Niveaux": [lvl3_1, lvl3_2, lvl3_3], "Coordonnées": (40, 450), "Background": background_cave},
         8: {"Niveaux": [lvl4_1, lvl4_2, lvl4_3], "Coordonnées": (65, 550), "Background": background_cave},
         9: {"Niveaux": [lvl5_1, lvl5_2, lvl5_3], "Coordonnées": (65, 620), "Background": background_cave},
-        10: {"Niveaux": [lvl6_1, lvl6_2, lvl6_3], "Coordonnées": (10, 600), "Background": background_cave},
+        10: {"Niveaux": [lvl6_1, lvl6_2, lvl6_3], "Coordonnées": (35, 225), "Background": background_cave},
+        11: {"Niveaux": [lvl7_1, lvl7_2, lvl7_3], "Coordonnées": (50, 150), "Background": background_cave},
+        12: {"Niveaux": [lvl8_1, lvl8_2, lvl8_3], "Coordonnées": (50,150), "Background": background_cave},
+        13: {"Niveaux": [lvl9_1, lvl9_2, lvl9_3], "Coordonnées": (50, 150), "Background": background_cave},
+        14: {"Niveaux": [lvl9_4, lvl9_5, lvl9_6], "Coordonnées": (1050, 645), "Background": background_cave},
+        15: {"Niveaux": [lvl10_1, lvl10_2, lvl10_3], "Coordonnées": (65, 620), "Background": background_cave}
     }
 
     world_off_1 = Monde(dico_niveaux[Niveau_off]["Niveaux"][0])  # Importation calque 1
@@ -297,7 +317,6 @@ class Bouton:  # Bouton Jouer
             action = True
         # Récupérer valeur de "action" pour actionner le bouton ou non
         return action
-
     def create_and_on(self, img1, img2, idd):  # Création du bouton du titre
         # Importation de l'image du bouton
         if idd == 0:
@@ -1437,7 +1456,7 @@ while Pygame:  # Exécution en boucle
         if key_taken == 1 and Niveau == 5 and joueur_x_2 == 975 and joueur_y_2 == 42:
             Mort = 1
 
-        if Niveau == 10:
+        if Niveau == 15:
             cine_fin = True
             pygame.mixer.Channel(0).fadeout(1000)
 
@@ -1495,9 +1514,9 @@ while Pygame:  # Exécution en boucle
             # Sauvegarde
             save_niveau(profile, Niveau)
 
-            if Niveau < 3 or Niveau == 5 or Niveau == 10:
+            if Niveau < 3 or Niveau == 5 or Niveau == 15:
                 dialogue = True
-            if Niveau <= 11:
+            if Niveau <= 15:
                 world, world_2, world_3, background_off, joueur_x, joueur_y = reset_niveau(Niveau)
                 Joueur.__init__(joueur_x, joueur_y)
                 Mort = 0  # Joueur vivant
