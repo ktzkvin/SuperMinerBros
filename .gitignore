@@ -6,3 +6,6 @@ __pycache__/
 
 # Fichiers d'IDE (PyCharm, VSCode, etc.)
 .idea/
+
+# Fichier de sauvegarde
+save.txt

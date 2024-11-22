@@ -46,7 +46,7 @@ from Niveaux.niveau_9_0_data import *
 from Niveaux.niveau_9_1_data import *
 
 #Niveau 10
-from Niveaux.niveau_10_0data import *
+from Niveaux.niveau_10_0_data import *
 
 pygame.init()  # Lancement du module Pygame et création de la fenêtre
 
@@ -227,7 +227,7 @@ def reset_niveau(Niveau_off):  # Niveau suivant
     sortie_groupe.empty()
     sortie_2_groupe.empty()
 
-    # Génération arrière-plan / Monde / Coordonnées d'apparition du joueur en fct du niveau
+    # Génération Monde / Coordonnées d'apparition du joueur / Arrière-plan en fct du niveau
     dico_niveaux = {
         # Niveaux introduction
         0: {"Niveaux": [lvl0_0_1, lvl0_0_2, lvl0_0_3], "Coordonnées": (65, 540), "Background": background_night},
