@@ -1206,8 +1206,7 @@ class HA:
 
     def event(self, go_off, go_2_off, go_3_off, dx_off, dy_off, dx_2_off, dy_2_off, dx_3_off, dy_3_off):
         if go_off:
-            pygame.mixer.Channel(1).play(pygame.mixer.Sound("assets/Musics/HA.mp3"),
-                                         2)  # Son du HA sur un 2e canal pour laisser la musique de fond à côté
+            pygame.mixer.Channel(1).play(pygame.mixer.Sound("assets/Musics/HA.mp3"), 2)  # Son du HA sur un 2e canal pour laisser la musique de fond à côté
 
             go_off = False
         elif not go_off:
@@ -1350,8 +1349,7 @@ while Pygame:  # Exécution en boucle
                     if Niveau != -1:
                         Niveau -= 1
                     Menu_4 = False
-        if bouton_profile_2_1.create_and_on(bouton_profile_2_img_1, bouton_profile_2_img_2,
-                                            id_5):  # Insertion du bouton de profil 2
+        if bouton_profile_2_1.create_and_on(bouton_profile_2_img_1, bouton_profile_2_img_2, id_5):  # Insertion du bouton de profil 2
             id_5 = 1
             if bouton_profile_2_1.on_click() == 1:
                 profile = 2
@@ -1364,8 +1362,7 @@ while Pygame:  # Exécution en boucle
                     if Niveau != -1:
                         Niveau -= 1
                     Menu_4 = False
-        if bouton_profile_3_1.create_and_on(bouton_profile_3_img_1, bouton_profile_3_img_2,
-                                            id_6):  # Insertion du bouton de profil 3
+        if bouton_profile_3_1.create_and_on(bouton_profile_3_img_1, bouton_profile_3_img_2, id_6):  # Insertion du bouton de profil 3
             id_6 = 1
             if bouton_profile_3_1.on_click() == 1:
                 profile = 3
@@ -1405,9 +1402,7 @@ while Pygame:  # Exécution en boucle
             world.create()
             world_2.create()
             Mort, key_taken, key_taken_1, key_taken_2, key_taken_3, crystal_taken, chest_opened, chest_opened_1, chest_opened_2, chest_opened_3, condition_next, joueur_x_2, joueur_y_2, game_pause, direction, vie_boss \
-                = Joueur.update(Mort, key_taken, key_taken_1, key_taken_2, key_taken_3, crystal_taken, chest_opened,
-                                chest_opened_1, chest_opened_2, chest_opened_3, condition_next, False, can_pause,
-                                cine_fin, vie_boss)
+                = Joueur.update(Mort, key_taken, key_taken_1, key_taken_2, key_taken_3, crystal_taken, chest_opened, chest_opened_1, chest_opened_2, chest_opened_3, condition_next, False, can_pause, cine_fin, vie_boss)
             world_3.create()
             ennemi_groupe.update(game_pause)
             boss_groupe.update(game_pause, vie_boss)
